@@ -1,1 +1,53 @@
 /*  your css code here. If applicable */
+.container{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	
+}
+
+.circle{
+	width:50px;
+	height:50px;
+	border-radius:60%;
+	border: 5px solid grey;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:22px
+}
+
+.line{
+	width:45px;
+	height:5px;
+	background-color:grey;
+	margin-top:1.6rem;
+	
+}
+.circle.active{
+	border: 5px solid #1a73e8;
+}
+.circle.previous{
+	border: 5px solid #1a73e8;
+}
+.line.active{
+	background-color: #1a73e8; !important;
+}
+
+.btn-container{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	margin-top:20px;
+	
+}
+
+.btn-container>button{
+	margin-right:10px;
+	padding:10px 20px;
+	border:none;
+	background-color:#1a73e8;
+	color:white;
+	cursor:pointer;
+	border-radius:10px;
+}
